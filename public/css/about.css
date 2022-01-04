@@ -1,0 +1,41 @@
+figure {
+  margin-bottom: 2rem;
+}
+
+img {
+  height: auto;
+  width: 25vw;
+  object-fit: cover;
+}
+
+q {
+  font-style: italic;
+}
+
+q::before {
+  content: '\201C';
+  font-size: 1.5rem;
+}
+
+q::after {
+  content: '\201D';
+  font-size: 1.5rem;
+}
+
+figcaption {
+  font-weight: bold;
+}
+
+cite {
+  font-size: .8rem;
+  font-weight: normal;
+}
+
+#bio, #profile {
+  text-align: left;
+}
+
+#profile span {
+  font-weight: bold;
+}
+

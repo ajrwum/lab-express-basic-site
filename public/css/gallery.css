@@ -1,0 +1,22 @@
+#appearances {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2rem;
+}
+
+#appearances div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 247, 230);
+  border: 1px solid grey;
+  border-radius: .25rem;
+  padding: .25rem;
+  width: 10.5rem;
+}
+
+h4 {
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,33 @@
+const gallery = [
+  { season: 2, episode: "2.01", title: "The Child", imgSrc: "/img/tng-201.jpg", imgOk: true },
+  { season: 2, episode: "2.04", title: "The Outrageous Okona", imgSrc: "/img/tng-204.jpeg", imgOk: true },
+  { season: 2, episode: "2.09", title: "The Measure Of A Man", imgSrc: "/img/tng-209.jpg", imgOk: false },
+  { season: 2, episode: "2.10", title: "The Dauphin", imgSrc: "/img/tng-210.jpg", imgOk: false },
+  { season: 2, episode: "2.16", title: "Q Who", imgSrc: "/img/tng-216.jpg", imgOk: false },
+  { season: 2, episode: "2.22", title: "Shades of Gray", imgSrc: "/img/tng-222.jpg", imgOk: false },
+  { season: 3, episode: "3.01", title: "Evolution", imgSrc: "/img/tng-301.jpg", imgOk: false },
+  { season: 3, episode: "3.06", title: "Booby Trap", imgSrc: "/img/tng-306.jpg", imgOk: false },
+  { season: 3, episode: "3.13", title: "Deja Q", imgSrc: "/img/tng-313.jpg", imgOk: false },
+  { season: 3, episode: "3.15", title: "Yesterday's Enterprise", imgSrc: "/img/tng-315.jpg", imgOk: false },
+  { season: 3, episode: "3.16", title: "The Offspring", imgSrc: "/img/tng-316.jpg", imgOk: false },
+  { season: 3, episode: "3.21", title: "Hollow Pursuits", imgSrc: "/img/tng-321.jpg", imgOk: false },
+  { season: 3, episode: "3.26", title: "The Best of Both Worlds", imgSrc: "/img/tng-326.jpg", imgOk: false },
+  { season: 4, episode: "4.01", title: "The Best of Both Worlds, Part II", imgSrc: "/img/tng-401.jpg", imgOk: false },
+  { season: 4, episode: "4.02", title: "Family", imgSrc: "/img/tng-402.jpg", imgOk: false },
+  { season: 4, episode: "4.10", title: "The Loss", imgSrc: "/img/tng-410.jpg", imgOk: false },
+  { season: 4, episode: "4.14", title: "Clues", imgSrc: "/img/tng-414.jpg", imgOk: false },
+  { season: 4, episode: "4.16", title: "Galaxy's Child", imgSrc: "/img/tng-416.jpg", imgOk: false },
+  { season: 4, episode: "4.17", title: "Night Terrors", imgSrc: "/img/tng-417.jpg", imgOk: false },
+  { season: 4, episode: "4.25", title: "In Theory", imgSrc: "/img/tng-425.jpg", imgOk: false },
+  { season: 4, episode: "4.26", title: "Redemption", imgSrc: "/img/tng-426.jpg", imgOk: false },
+  { season: 5, episode: "5.01", title: "Redemption II", imgSrc: "/img/tng-501.jpg", imgOk: false },
+  { season: 5, episode: "5.03", title: "Ensign Ro", imgSrc: "/img/tng-503.jpg", imgOk: false },
+  { season: 5, episode: "5.22", title: "Imaginary Friend", imgSrc: "/img/tng-522.jpg", imgOk: false },
+  { season: 5, episode: "5.23", title: "I Borg", imgSrc: "/img/tng-523.jpg", imgOk: false },
+  { season: 5, episode: "5.26", title: "Time's Arrow", imgSrc: "/img/tng-526.jpg", imgOk: false },
+  { season: 6, episode: "6.01", title: "Time's Arrow, Part II", imgSrc: "/img/tng-601.jpg", imgOk: false },
+  { season: 6, episode: "6.07", title: "Rascals", imgSrc: "/img/tng-607.jpg", imgOk: false },
+  { season: 6, episode: "6.22", title: "Suspicions", imgSrc: "/img/tng-622.jpg", imgOk: false }
+];
+
+module.exports = gallery;

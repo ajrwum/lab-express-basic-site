@@ -1,0 +1,13 @@
+#page-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+}
+
+#page-links div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
